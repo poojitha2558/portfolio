@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useRef } from "react";
+import { useRef, RefObject } from "react";
 
 export default function Home() {
-  const aboutRef = useRef(null);
-  const skillsRef = useRef(null);
-  const experienceRef = useRef(null);
-  const projectsRef = useRef(null);
-  const contactRef = useRef(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const skillsRef = useRef<HTMLDivElement>(null);
+  const experienceRef = useRef<HTMLDivElement>(null);
+  const projectsRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
 
-  const scrollToSection = (ref) => {
+  const scrollToSection = (ref: RefObject<HTMLDivElement | null>) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -95,7 +95,8 @@ export default function Home() {
             {[
               "React.js","Next.js","Tailwind","TypeScript",
               "Node.js","Express","Spring Boot","AWS",
-              "Docker","Jenkins","MongoDB","PostgreSQL"
+              "Docker","Jenkins","MongoDB","PostgreSQL",
+              "UI/UX","React Native"
             ].map((skill) => (
               <div
                 key={skill}
