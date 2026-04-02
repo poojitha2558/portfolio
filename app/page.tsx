@@ -96,7 +96,7 @@ export default function Home() {
               "React.js","Next.js","Tailwind","TypeScript",
               "Node.js","Express","Spring Boot","AWS",
               "Docker","Jenkins","MongoDB","PostgreSQL",
-              "UI/UX","React Native"
+              "UI/UX","React Native", "Git", "Tableau"
             ].map((skill) => (
               <div
                 key={skill}
