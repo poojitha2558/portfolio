@@ -83,7 +83,7 @@ export default function Home() {
           <div className="bg-white/5 backdrop-blur-xl border border-white/10 p-6 rounded-2xl shadow-lg">
             <h2 className="text-3xl font-semibold mb-4 text-yellow-300">About Me</h2>
             <p className="text-blue-100">
-              Associate Software Engineer at Bazaarvoice with 9 months full-time experience and 6 months internship experience. B.Tech in Computer Science with CGPA 9.05. I'm a developer and designer who loves crafting beautiful, scalable digital experiences. Whether building robust backend systems with Spring Boot or designing intuitive UIs with React and Figma, I'm passionate about bridging the gap between engineering and design. I love sketching ideas, prototyping user flows, and translating designs into elegant, performant code. My mission is to solve complex problems while creating seamless, user-centric experiences.
+              Associate Software Engineer at Bazaarvoice with 9 months full-time experience and 6 months internship experience. B.Tech in Computer Science with CGPA 9.05. I'm a developer and designer who loves crafting beautiful, scalable digital experiences. Whether building robust backend systems with Spring Boot or designing intuitive UIs with React and Figma, I'm passionate about bridging the gap between engineering and design. I love sketching ideas, prototyping user flows, and translating designs into elegant, performant code.
             </p>
           </div>
         </section>
@@ -213,8 +213,8 @@ time, and production release performance.</li>
         {/* Contact */}
         <section ref={contactRef} className="p-10 text-center">
           <h2 className="text-3xl font-semibold mb-4 text-yellow-300">Contact</h2>
-          <p className="text-yellow-200">poojithasukamanchi@example.com</p>
-          <a href="mailto:poojithasukamanchi@example.com" className="inline-block mt-4 px-6 py-3 rounded-full bg-yellow-400 text-black font-semibold hover:scale-110 transition shadow-[0_0_25px_rgba(250,204,21,0.9)]">
+          <p className="text-yellow-200">poojithasukamanchi@gmail.com</p>
+          <a href="mailto:poojithasukamanchi@gmail.com" className="inline-block mt-4 px-6 py-3 rounded-full bg-yellow-400 text-black font-semibold hover:scale-110 transition shadow-[0_0_25px_rgba(250,204,21,0.9)]">
             Send Message
           </a>
         </section>
